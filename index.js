@@ -73,7 +73,7 @@ class RCTVoice {
           REQUEST_PERMISSIONS_AUTO: true,
         }, options), callback);
       } else {
-        Voice.startSpeech(locale, callback);
+        Voice.startSpeech(locale, options, callback);
       }
     });
   }
